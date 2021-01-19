@@ -1,0 +1,32 @@
+
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <ImportDirectoryBuildProps>false</ImportDirectoryBuildProps>
+    <ImportDirectoryBuildTargets>false</ImportDirectoryBuildTargets>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <RuntimeIdentifier>win-x86</RuntimeIdentifier>
+    <RuntimeFrameworkVersion></RuntimeFrameworkVersion>
+    <AssemblyName>4ebc7ea7-d866-4d7e-91cf-55839b988372</AssemblyName>
+    <AssemblyTitle>4ebc7ea7-d866-4d7e-91cf-55839b988372</AssemblyTitle>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
+    <DebugType>pdbonly</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+    <UseSharedCompilation>false</UseSharedCompilation>
+    <RootAllApplicationAssemblies>False</RootAllApplicationAssemblies>
+    <IlcGenerateCompleteTypeMetadata>True</IlcGenerateCompleteTypeMetadata>
+    <IlcGenerateStackTraceData>True</IlcGenerateStackTraceData>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <Compile Include="4ebc7ea7-d866-4d7e-91cf-55839b988372.notcs" Exclude="bin\**;obj\**;**\*.xproj;packages\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.DotNet.ILCompiler" Version="1.0.0-alpha-*" />
+    <ProjectReference Include="C:\Users\ecodrea\source\repos\NoSqlDB\BenchmarkRunner\TestsRunner.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <RdXmlFile Include="rd.xml" />
+  </ItemGroup>
+</Project>

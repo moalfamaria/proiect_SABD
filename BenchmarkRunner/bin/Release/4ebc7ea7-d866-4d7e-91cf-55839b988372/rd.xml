@@ -1,0 +1,8 @@
+
+<Directives>
+    <Application>
+        <Assembly Name="System.Runtime">
+            <Type Name="System.GC" Dynamic="Required All" />
+        </Assembly>
+    </Application>
+</Directives>
